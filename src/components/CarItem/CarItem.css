@@ -1,0 +1,17 @@
+.car-item {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: aqua;
+  border-radius: 30px;
+}
+.car-image {
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.car-image img {
+  width: 300px;
+}
