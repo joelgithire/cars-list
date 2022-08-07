@@ -6,7 +6,7 @@ function CarItem() {
     <div className="car-item">
       <div className="car-image">
         <img
-          atl="tesla"
+          alt="tesla"
           src="https://tesla-cdn.thron.com/delivery/public/image/tesla/195458a0-ff67-488c-b972-14d23d2c42fb/bvlatuR/std/1200x630/ms-homepage-social"
         />
       </div>
