@@ -4,7 +4,6 @@ import CarItem from "../CarItem/CarItem";
 function CarsList() {
   return (
     <div>
-      CarsList
       <CarItem></CarItem>
     </div>
   );
