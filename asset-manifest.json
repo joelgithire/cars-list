@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cars-list/static/css/main.c675085a.css",
-    "main.js": "/cars-list/static/js/main.782d6782.js",
+    "main.css": "/cars-list/static/css/main.d2cc85a1.css",
+    "main.js": "/cars-list/static/js/main.aeec075a.js",
     "index.html": "/cars-list/index.html",
-    "main.c675085a.css.map": "/cars-list/static/css/main.c675085a.css.map",
-    "main.782d6782.js.map": "/cars-list/static/js/main.782d6782.js.map"
+    "main.d2cc85a1.css.map": "/cars-list/static/css/main.d2cc85a1.css.map",
+    "main.aeec075a.js.map": "/cars-list/static/js/main.aeec075a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c675085a.css",
-    "static/js/main.782d6782.js"
+    "static/css/main.d2cc85a1.css",
+    "static/js/main.aeec075a.js"
   ]
 }
