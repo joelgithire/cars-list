@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: row;
   gap: 950px;
+  box-shadow: 2px 2px rgb(212, 214, 215);
 }
 
 .nav-title {
