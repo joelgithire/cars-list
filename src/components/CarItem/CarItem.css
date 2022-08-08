@@ -3,15 +3,27 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: aqua;
+  background-color: rgb(203, 229, 229);
   border-radius: 30px;
+  margin: 20px 20px;
 }
 .car-image {
   padding: 10px;
+  margin-top: 10px;
   background-color: aliceblue;
-  border-radius: 10px;
+  border-radius: 4px;
+  box-shadow: 5px 5px rgb(234, 234, 234);
 }
 
 .car-image img {
-  width: 300px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.car-description {
+  padding-top: 10px;
+}
+
+.car-button {
+  padding-top: 10px;
 }

@@ -10,8 +10,8 @@ function CarItem() {
           src="https://tesla-cdn.thron.com/delivery/public/image/tesla/195458a0-ff67-488c-b972-14d23d2c42fb/bvlatuR/std/1200x630/ms-homepage-social"
         />
       </div>
-      <div>description</div>
-      <div>Button</div>
+      <div className="car-description">description</div>
+      <div className="car-button">Button</div>
     </div>
   );
 }
