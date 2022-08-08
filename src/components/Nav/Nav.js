@@ -1,7 +1,12 @@
 import React from "react";
-
+import "./Nav.css";
 function Nav() {
-  return <div>Nav</div>;
+  return (
+    <div className="nav-bar">
+      <div className="nav-title">CarsList</div>
+      <div className="add-car">+ add Car</div>
+    </div>
+  );
 }
 
 export default Nav;

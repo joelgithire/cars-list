@@ -1,0 +1,19 @@
+.nav-bar {
+  background-color: rgb(206, 223, 238);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 950px;
+}
+
+.nav-title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(78, 76, 76);
+  margin-left: 10px;
+}
+
+.add-car {
+  align-self: center;
+}
