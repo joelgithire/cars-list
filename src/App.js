@@ -7,6 +7,8 @@ function App() {
     <div className="App">
       <Nav />
       <CarsList />
+      <CarsList />
+      <CarsList />
     </div>
   );
 }
