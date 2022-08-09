@@ -1,10 +1,23 @@
-.nav-bar {
+/* .nav-bar {
   background-color: rgb(206, 223, 238);
   height: 50px;
   display: flex;
   flex-direction: row;
   gap: 950px;
   box-shadow: 2px 2px rgb(212, 214, 215);
+  width: 100%;
+} */
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: rgb(206, 223, 238);
+  top: 0;
+  gap: 950px;
 }
 
 .nav-title {
