@@ -6,10 +6,18 @@ function CarForm() {
     <div className="car-form">
       <h1>Add car</h1>
       <div className="car-inputs">
-        <input type="text" name="car name" placeholder="enter car name" />
-        <input type="text" name="car name" placeholder="enter car image url" />
-        <textarea placeholder="enter car description"></textarea>
-
+        <div>
+          <label>Enter Car Name</label>
+          <input type="text" name="car name" />
+        </div>
+        <div>
+          <label>Enter Car Image Url</label>
+          <input type="text" name="car name" />
+        </div>
+        <div>
+          <label>Enter Car Description</label>
+          <textarea></textarea>
+        </div>
         <button>Add car</button>
       </div>
     </div>
