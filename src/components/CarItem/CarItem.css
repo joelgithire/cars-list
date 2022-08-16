@@ -7,6 +7,11 @@
   margin: 20px 20px;
   box-shadow: 2px 2px rgb(231, 233, 233);
 }
+.car-name {
+  color: brown;
+  font-size: 20px;
+  font-weight: bold;
+}
 .car-image {
   padding: 10px;
   margin-top: 10px;
