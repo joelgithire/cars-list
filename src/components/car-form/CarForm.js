@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import "./CarForm.css";
 
-const onChangeHanlder = (event) => {
-  console.log(event);
-};
-
 function CarForm() {
   const [carName, setCarName] = useState("");
   const [carImageUrl, setCarImageUrl] = useState("");
