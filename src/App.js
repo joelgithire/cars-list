@@ -7,6 +7,7 @@ import { useState } from "react";
 const DUMMUY_CAR_DATA = [
   {
     id: "02",
+    carName: "Lam",
     carImageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/9/97/Lamborghini_Aventador_LP700-4_Orange.jpg",
     carDescription:
