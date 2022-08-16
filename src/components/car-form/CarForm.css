@@ -32,6 +32,7 @@
   margin-top: 10px;
   margin-bottom: 5px;
   font-size: 25px;
+  color: white;
 }
 
 .car-inputs textarea {
@@ -42,6 +43,7 @@
   border-radius: 10px;
   margin-top: 10px;
   font-size: 25px;
+  color: white;
 }
 
 .car-inputs button {
@@ -56,4 +58,5 @@
   font-weight: bolder;
   color: white;
   border-radius: 10px;
+  font-size: 30px;
 }
