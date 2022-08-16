@@ -1,22 +1,14 @@
 import React, { useState } from "react";
 import "./CarItem.css";
 
-function CarItem(props) {
-  const [carName, setCarName] = useState("");
-  const setCarNameHandler = () => {
-    setCarName("Lambo");
-  };
-
+function CarItem({ carName, carImageUrl, carDescription }) {
   return (
     <div className="car-item">
       <div className="car-image">
         <div className="car-name">{carName}</div>
-        <img alt="tesla" src={props.allCars.carImage} />
+        <img alt="tesla" src={carImageUrl} />
       </div>
-      <div className="car-description">{props.allCars.carDescription}</div>
-      <div className="car-button" onClick={setCarNameHandler}>
-        Button
-      </div>
+      <div className="car-description">{carDescription}</div>
     </div>
   );
 }
