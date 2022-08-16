@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./CarForm.css";
 
-function CarForm() {
+function CarForm(props) {
   const [carName, setCarName] = useState("");
   const [carImageUrl, setCarImageUrl] = useState("");
   const [carDescription, setCarDescription] = useState("");
@@ -23,8 +23,9 @@ function CarForm() {
       carImageUrl: carImageUrl,
       carDescription: carDescription,
     };
-    console.log(enteredCars);
+
     clearFormInputs();
+    props.onAddCars(enteredCars);
   };
 
   const clearFormInputs = () => {
