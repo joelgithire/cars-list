@@ -1,7 +1,6 @@
 import React from "react";
 import "./CarsList.css";
 import CarItem from "../CarItem/CarItem";
-import CarForm from "../car-form/CarForm";
 
 const DUMMUY_CAR_DATA = {
   carImage:
@@ -13,7 +12,6 @@ const DUMMUY_CAR_DATA = {
 function CarsList(props) {
   return (
     <div className="car-list">
-      <CarForm />
       <CarItem allCars={DUMMUY_CAR_DATA}></CarItem>
     </div>
   );
