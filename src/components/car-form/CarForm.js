@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState } from "react";
 import "./CarForm.css";
 
@@ -23,6 +24,13 @@ function CarForm(props) {
       carImageUrl: carImageUrl,
       carDescription: carDescription,
     };
+
+    axios
+      .post(
+        "https://cars-list-e51f7-default-rtdb.firebaseio.com/cars.json",
+        enteredCars
+      )
+      .then((response) => console.log(response));
 
     clearFormInputs();
     props.onAddCars(enteredCars);
