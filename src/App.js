@@ -2,20 +2,28 @@ import "./App.css";
 import CarsList from "./components/CarsList/CarsList";
 import Nav from "./components/Nav/Nav";
 import CarForm from "./components/car-form/CarForm";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
-const DUMMUY_CAR_DATA = [
-  {
-    id: "02",
-    carName: "Lam",
-    carImageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/9/97/Lamborghini_Aventador_LP700-4_Orange.jpg",
-    carDescription:
-      "Automobili Lamborghini S.p.A. is an Italian brand and manufacturer of luxury sports cars and SUVs based in Sant'Agata Bolognese. The company is owned by the Volkswagen Group through its subsidiary Audi.",
-  },
-];
+const fetctchedResults = [];
+
 function App() {
-  const [cars, setEnteredCars] = useState(DUMMUY_CAR_DATA);
+  const [cars, setEnteredCars] = useState(fetctchedResults);
+
+  useEffect(() => {
+    axios
+      .get("https://cars-list-e51f7-default-rtdb.firebaseio.com/cars.json")
+      .then((response) => {
+        console.log(response.data);
+
+        for (let key in response.data) {
+          fetctchedResults.unshift({
+            ...response.data[key],
+            id: key,
+          });
+        }
+      });
+  });
 
   const addCarsHanlder = (allcars) => {
     setEnteredCars((prevCars) => {
